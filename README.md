@@ -1,4 +1,6 @@
 # expression2mongoquery
+[![Coverage Status](https://coveralls.io/repos/github/PaoloSarti/expression2mongoquery/badge.svg?branch=master)](https://coveralls.io/github/PaoloSarti/expression2mongoquery?branch=master)
+
 ## Description
 This library compiles javascript expressions to MongoDB queries. In this way, filters can be expressed easily and in a more compact way, without having to write a ton of curly braces ;).
 It could be used to specify filters in a plain text configuration.
