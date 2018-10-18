@@ -39,6 +39,7 @@
   },
   "devDependencies": {
     "babylon": "^6.18.0",
+    "coveralls": "^3.0.2",
     "espree": "^4.0.0",
     "esprima": "^4.0.1",
     "pre-commit": "^1.2.2",
