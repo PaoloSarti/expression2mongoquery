@@ -1,4 +1,5 @@
 # expression2mongoquery
+[![Build Status](https://travis-ci.org/PaoloSarti/expression2mongoquery.svg?branch=master)](https://travis-ci.org/PaoloSarti/expression2mongoquery)
 [![Coverage Status](https://coveralls.io/repos/github/PaoloSarti/expression2mongoquery/badge.svg?branch=master)](https://coveralls.io/github/PaoloSarti/expression2mongoquery?branch=master)
 
 ## Description

@@ -10,7 +10,8 @@
     "lint": "standard --fix",
     "test": "npm run lint && npm run unit",
     "unit": "tap tests -b --coverage-report=text-summary",
-    "coverage": "tap tests --coverage-report=html --no-browser"
+    "coverage": "tap tests --coverage-report=html --no-browser",
+    "coveralls": "tap tests -b --cov"
   },
   "repository": {
     "type": "git",
