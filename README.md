@@ -28,7 +28,7 @@ assert.deepStrictEqual(query, {
 ### A More Complex Example
 ```js
 const assert = require('assert')
-const expressionToMongoQuery = require('./index')({
+const expressionToMongoQuery = require('expression2mongoquery')({
   converters: {
     birthDay: d => new Date(d),
   }
