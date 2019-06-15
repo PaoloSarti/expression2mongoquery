@@ -1,6 +1,6 @@
 {
   "name": "expression2mongoquery",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "transform javascript expression to mongo queries",
   "main": "index.js",
   "directories": {
