@@ -1,3 +1,5 @@
+'use strict'
+
 const IDENTIFIER = 'Identifier'
 const UNDEFINED = 'undefined'
 

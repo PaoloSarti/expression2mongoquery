@@ -1,6 +1,7 @@
 # expression2mongoquery
 [![Build Status](https://travis-ci.org/PaoloSarti/expression2mongoquery.svg?branch=master)](https://travis-ci.org/PaoloSarti/expression2mongoquery)
 [![Coverage Status](https://coveralls.io/repos/github/PaoloSarti/expression2mongoquery/badge.svg?branch=master)](https://coveralls.io/github/PaoloSarti/expression2mongoquery?branch=master)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Description
 This library compiles javascript expressions to MongoDB queries. In this way, filters can be expressed easily and in a more compact way, without having to write a ton of curly braces ;).
@@ -68,7 +69,7 @@ It supports:
  - composite identifiers to query nested documents i.e. `a.b["c"] > 3` becomes `{ 'a.b.c': { $gt: 3 } }`
  - provide your favourite way to parse JavaScript in construction by passing `{ parseExpressionFunction: <your-favourite-parser> }`
  - convert values according to the property name, by providing a `{ converters: { a: d => new Date(d) } }` map
- - regexes: `a == /^c.*/i` becomes `{ a: { $regex: /^c.*/i } }`
+ - regexes: `a == /^c.*/i` becomes `{ a: /^c.*/i }`
 
 ## How does it work?
 This library parses JavaScript expressions with `acorn` (by default), then navigates the generated `AST` to transform it into `mongo` queries.
